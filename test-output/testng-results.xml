@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="17" total="34" passed="17" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-11T13:04:47 IST" name="herokuapp" finished-at="2023-03-11T13:07:34 IST" duration-ms="166379">
+    <groups>
+    </groups>
+    <test started-at="2023-03-11T13:04:47 IST" name="Baseclass" finished-at="2023-03-11T13:07:34 IST" duration-ms="166379">
+      <class name="testcases.Dropdowntestcase">
+        <test-method signature="Dropdown()[pri:0, instance:testcases.Dropdowntestcase@47d9a273]" started-at="2023-03-11T13:05:35 IST" name="Dropdown" finished-at="2023-03-11T13:05:41 IST" duration-ms="6545" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Dropdown -->
+      </class> <!-- testcases.Dropdowntestcase -->
+      <class name="testcases.DigestAuthenticationtestcase">
+        <test-method signature="DigestAuthentication()[pri:0, instance:testcases.DigestAuthenticationtestcase@26e356f0]" started-at="2023-03-11T13:05:27 IST" name="DigestAuthentication" finished-at="2023-03-11T13:05:35 IST" duration-ms="8128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DigestAuthentication -->
+      </class> <!-- testcases.DigestAuthenticationtestcase -->
+      <class name="testcases.HorizontalSlidertestcase">
+        <test-method signature="HorizontalSlider()[pri:0, instance:testcases.HorizontalSlidertestcase@55634720]" started-at="2023-03-11T13:06:47 IST" name="HorizontalSlider" finished-at="2023-03-11T13:06:51 IST" duration-ms="4174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HorizontalSlider -->
+      </class> <!-- testcases.HorizontalSlidertestcase -->
+      <class name="testcases.Addremoveelementtestcase">
+        <test-method signature="Addremoveelement()[pri:0, instance:testcases.Addremoveelementtestcase@61001b64]" started-at="2023-03-11T13:04:55 IST" name="Addremoveelement" finished-at="2023-03-11T13:05:11 IST" duration-ms="16555" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Addremoveelement -->
+      </class> <!-- testcases.Addremoveelementtestcase -->
+      <class name="testcases.Dynamiccontroltestcase">
+        <test-method signature="Dynamiccontrol()[pri:0, instance:testcases.Dynamiccontroltestcase@27f981c6]" started-at="2023-03-11T13:05:54 IST" name="Dynamiccontrol" finished-at="2023-03-11T13:06:13 IST" duration-ms="18158" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Dynamiccontrol -->
+      </class> <!-- testcases.Dynamiccontroltestcase -->
+      <class name="testcases.Securefiledownloadtestcase">
+        <test-method signature="Securefiledownload()[pri:0, instance:testcases.Securefiledownloadtestcase@428640fa]" started-at="2023-03-11T13:07:16 IST" name="Securefiledownload" finished-at="2023-03-11T13:07:26 IST" duration-ms="10085" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Securefiledownload -->
+      </class> <!-- testcases.Securefiledownloadtestcase -->
+      <class name="testcases.BasicAuthtestcase">
+        <test-method signature="BasicAuth()[pri:0, instance:testcases.BasicAuthtestcase@201a4587]" started-at="2023-03-11T13:04:47 IST" name="BasicAuth" finished-at="2023-03-11T13:04:55 IST" duration-ms="7325" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BasicAuth -->
+      </class> <!-- testcases.BasicAuthtestcase -->
+      <class name="testcases.uploadfiletestcase">
+        <test-method signature="uploadfile()[pri:0, instance:testcases.uploadfiletestcase@d9345cd]" started-at="2023-03-11T13:07:26 IST" name="uploadfile" finished-at="2023-03-11T13:07:34 IST" duration-ms="7418" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- uploadfile -->
+      </class> <!-- testcases.uploadfiletestcase -->
+      <class name="testcases.Dynamiccontenttestcase">
+        <test-method signature="Dynamiccontent()[pri:0, instance:testcases.Dynamiccontenttestcase@4b8ee4de]" started-at="2023-03-11T13:05:41 IST" name="Dynamiccontent" finished-at="2023-03-11T13:05:54 IST" duration-ms="12855" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Dynamiccontent -->
+      </class> <!-- testcases.Dynamiccontenttestcase -->
+      <class name="testcases.Entryadtestcase">
+        <test-method signature="Entryad()[pri:0, instance:testcases.Entryadtestcase@1151e434]" started-at="2023-03-11T13:06:30 IST" name="Entryad" finished-at="2023-03-11T13:06:37 IST" duration-ms="6210" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Entryad -->
+      </class> <!-- testcases.Entryadtestcase -->
+      <class name="testcases.Redirectioninktestcase">
+        <test-method signature="Redirectionlink()[pri:0, instance:testcases.Redirectioninktestcase@4c1909a3]" started-at="2023-03-11T13:06:59 IST" name="Redirectionlink" finished-at="2023-03-11T13:07:16 IST" duration-ms="17472" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Redirectionlink -->
+      </class> <!-- testcases.Redirectioninktestcase -->
+      <class name="testcases.Formauthenticationtestcase">
+        <test-method signature="Formauthentication()[pri:0, instance:testcases.Formauthenticationtestcase@4659191b]" started-at="2023-03-11T13:06:41 IST" name="Formauthentication" finished-at="2023-03-11T13:06:47 IST" duration-ms="6634" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Formauthentication -->
+      </class> <!-- testcases.Formauthenticationtestcase -->
+      <class name="testcases.Checkboxestestcase">
+        <test-method signature="Checkboxes()[pri:0, instance:testcases.Checkboxestestcase@54a7079e]" started-at="2023-03-11T13:05:19 IST" name="Checkboxes" finished-at="2023-03-11T13:05:27 IST" duration-ms="7904" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Checkboxes -->
+      </class> <!-- testcases.Checkboxestestcase -->
+      <class name="testcases.Dynamicloadingtestcase">
+        <test-method signature="Dynamicloading()[pri:0, instance:testcases.Dynamicloadingtestcase@1b11171f]" started-at="2023-03-11T13:06:13 IST" name="Dynamicloading" finished-at="2023-03-11T13:06:30 IST" duration-ms="17930" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Dynamicloading -->
+      </class> <!-- testcases.Dynamicloadingtestcase -->
+      <class name="testcases.Notificationmessagetestcase">
+        <test-method signature="DigestAuthentication()[pri:0, instance:testcases.Notificationmessagetestcase@4b0d79fc]" started-at="2023-03-11T13:06:51 IST" name="DigestAuthentication" finished-at="2023-03-11T13:06:59 IST" duration-ms="7389" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DigestAuthentication -->
+      </class> <!-- testcases.Notificationmessagetestcase -->
+      <class name="Baseclass.browserlaunch">
+        <test-method is-config="true" signature="base()[pri:0, instance:Baseclass.browserlaunch@32502377]" started-at="2023-03-11T13:04:26 IST" name="base" finished-at="2023-03-11T13:04:47 IST" duration-ms="21702" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- base -->
+      </class> <!-- Baseclass.browserlaunch -->
+      <class name="testcases.brokenimagetestcase">
+        <test-method signature="brokenimage()[pri:0, instance:testcases.brokenimagetestcase@4310d43]" started-at="2023-03-11T13:05:11 IST" name="brokenimage" finished-at="2023-03-11T13:05:19 IST" duration-ms="7433" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- brokenimage -->
+      </class> <!-- testcases.brokenimagetestcase -->
+      <class name="testcases.Filedownloadtestcase">
+        <test-method signature="Filedownloadtestcase()[pri:0, instance:testcases.Filedownloadtestcase@2dc54ad4]" started-at="2023-03-11T13:06:37 IST" name="Filedownloadtestcase" finished-at="2023-03-11T13:06:41 IST" duration-ms="3784" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Filedownloadtestcase -->
+      </class> <!-- testcases.Filedownloadtestcase -->
+    </test> <!-- Baseclass -->
+  </suite> <!-- herokuapp -->
+</testng-results>

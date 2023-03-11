@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="herokuapp">
+
+<!--<listeners>
+
+		 <listener class-name="extentlisteners.ExtentListeners">
+		</listener>
+
+	</listeners>-->
+
+	<test name="Baseclass">
+		<classes>
+		
+		<class name="Baseclass.browserlaunch" />
+		<class name="testcases.BasicAuthtestcase"/>
+		<class name="testcases.Addremoveelementtestcase"/>
+		<class name="testcases.brokenimagetestcase"/>
+		<class name="testcases.Checkboxestestcase"/>
+		<class name="testcases.DigestAuthenticationtestcase"/>
+		<class name="testcases.Dropdowntestcase"/>
+		<class name="testcases.Dynamiccontenttestcase"/>
+		<class name="testcases.Dynamiccontroltestcase"/>
+		<class name="testcases.Dynamicloadingtestcase"/>
+		<class name="testcases.Entryadtestcase"/>
+		<class name="testcases.Filedownloadtestcase"/>
+		<class name="testcases.Formauthenticationtestcase"/>
+		<class name="testcases.HorizontalSlidertestcase"/>
+		<class name="testcases.Notificationmessagetestcase"/>
+		<class name="testcases.Redirectioninktestcase"/>
+		<class name="testcases.Securefiledownloadtestcase"/>
+		<class name="testcases.uploadfiletestcase"/>
+		
+		</classes>
+	</test>
+</suite><!--comment -->
+
+ 

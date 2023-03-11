@@ -1,0 +1,164 @@
+<html>
+<head>
+<title>TestNG:  Baseclass</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Baseclass</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>17/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sat Mar 11 13:04:47 IST 2023</td>
+</tr>
+<tr><td>Total time:</td><td>166 seconds (166379 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testcases.Filedownloadtestcase.Filedownloadtestcase()'><b>Filedownloadtestcase</b><br>Test class: testcases.Filedownloadtestcase</td>
+<td></td>
+<td>3</td>
+<td>testcases.Filedownloadtestcase@2dc54ad4</td></tr>
+<tr>
+<td title='testcases.Addremoveelementtestcase.Addremoveelement()'><b>Addremoveelement</b><br>Test class: testcases.Addremoveelementtestcase</td>
+<td></td>
+<td>16</td>
+<td>testcases.Addremoveelementtestcase@61001b64</td></tr>
+<tr>
+<td title='testcases.HorizontalSlidertestcase.HorizontalSlider()'><b>HorizontalSlider</b><br>Test class: testcases.HorizontalSlidertestcase</td>
+<td></td>
+<td>4</td>
+<td>testcases.HorizontalSlidertestcase@55634720</td></tr>
+<tr>
+<td title='testcases.uploadfiletestcase.uploadfile()'><b>uploadfile</b><br>Test class: testcases.uploadfiletestcase</td>
+<td></td>
+<td>7</td>
+<td>testcases.uploadfiletestcase@d9345cd</td></tr>
+<tr>
+<td title='testcases.Notificationmessagetestcase.DigestAuthentication()'><b>DigestAuthentication</b><br>Test class: testcases.Notificationmessagetestcase</td>
+<td></td>
+<td>7</td>
+<td>testcases.Notificationmessagetestcase@4b0d79fc</td></tr>
+<tr>
+<td title='testcases.Entryadtestcase.Entryad()'><b>Entryad</b><br>Test class: testcases.Entryadtestcase</td>
+<td></td>
+<td>6</td>
+<td>testcases.Entryadtestcase@1151e434</td></tr>
+<tr>
+<td title='testcases.Dynamiccontroltestcase.Dynamiccontrol()'><b>Dynamiccontrol</b><br>Test class: testcases.Dynamiccontroltestcase</td>
+<td></td>
+<td>18</td>
+<td>testcases.Dynamiccontroltestcase@27f981c6</td></tr>
+<tr>
+<td title='testcases.DigestAuthenticationtestcase.DigestAuthentication()'><b>DigestAuthentication</b><br>Test class: testcases.DigestAuthenticationtestcase</td>
+<td></td>
+<td>8</td>
+<td>testcases.DigestAuthenticationtestcase@26e356f0</td></tr>
+<tr>
+<td title='testcases.Redirectioninktestcase.Redirectionlink()'><b>Redirectionlink</b><br>Test class: testcases.Redirectioninktestcase</td>
+<td></td>
+<td>17</td>
+<td>testcases.Redirectioninktestcase@4c1909a3</td></tr>
+<tr>
+<td title='testcases.Dynamiccontenttestcase.Dynamiccontent()'><b>Dynamiccontent</b><br>Test class: testcases.Dynamiccontenttestcase</td>
+<td></td>
+<td>12</td>
+<td>testcases.Dynamiccontenttestcase@4b8ee4de</td></tr>
+<tr>
+<td title='testcases.brokenimagetestcase.brokenimage()'><b>brokenimage</b><br>Test class: testcases.brokenimagetestcase</td>
+<td></td>
+<td>7</td>
+<td>testcases.brokenimagetestcase@4310d43</td></tr>
+<tr>
+<td title='testcases.Dynamicloadingtestcase.Dynamicloading()'><b>Dynamicloading</b><br>Test class: testcases.Dynamicloadingtestcase</td>
+<td></td>
+<td>17</td>
+<td>testcases.Dynamicloadingtestcase@1b11171f</td></tr>
+<tr>
+<td title='testcases.Formauthenticationtestcase.Formauthentication()'><b>Formauthentication</b><br>Test class: testcases.Formauthenticationtestcase</td>
+<td></td>
+<td>6</td>
+<td>testcases.Formauthenticationtestcase@4659191b</td></tr>
+<tr>
+<td title='testcases.Checkboxestestcase.Checkboxes()'><b>Checkboxes</b><br>Test class: testcases.Checkboxestestcase</td>
+<td></td>
+<td>7</td>
+<td>testcases.Checkboxestestcase@54a7079e</td></tr>
+<tr>
+<td title='testcases.Securefiledownloadtestcase.Securefiledownload()'><b>Securefiledownload</b><br>Test class: testcases.Securefiledownloadtestcase</td>
+<td></td>
+<td>10</td>
+<td>testcases.Securefiledownloadtestcase@428640fa</td></tr>
+<tr>
+<td title='testcases.Dropdowntestcase.Dropdown()'><b>Dropdown</b><br>Test class: testcases.Dropdowntestcase</td>
+<td></td>
+<td>6</td>
+<td>testcases.Dropdowntestcase@47d9a273</td></tr>
+<tr>
+<td title='testcases.BasicAuthtestcase.BasicAuth()'><b>BasicAuth</b><br>Test class: testcases.BasicAuthtestcase</td>
+<td></td>
+<td>7</td>
+<td>testcases.BasicAuthtestcase@201a4587</td></tr>
+</table><p>
+</body>
+</html>
